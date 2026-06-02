@@ -2714,8 +2714,8 @@
   // "dso-selector.set-scope.community.head": "Select a search scope",
   "dso-selector.set-scope.community.head": "Seleccione un ámbito de búsqueda",
 
-  // "dso-selector.set-scope.community.button": "Search all of DSpace",
-  "dso-selector.set-scope.community.button": "Buscar en todo DSpace",
+  // "dso-selector.set-scope.community.button": "Search all of Posgrado UPEA",
+  "dso-selector.set-scope.community.button": "Buscar en Todo Posgrado UPEA",
 
   // "dso-selector.set-scope.community.or-divider": "or",
   "dso-selector.set-scope.community.or-divider": "o",
@@ -3352,7 +3352,7 @@
   "home.title": "Inicio",
 
   // "home.top-level-communities.head": "Communities in DSpace",
-  "home.top-level-communities.head": "Comunidades en DSpace",
+  "home.top-level-communities.head": "Comunidades del Repositorio Institucional de Posgrado UPEA",
 
   // "home.top-level-communities.help": "Select a community to browse its collections.",
   "home.top-level-communities.help": "Seleccione una comunidad para explorar sus colecciones.",
@@ -5298,8 +5298,8 @@
   // "menu.section.browse_community_by_title": "By Title",
   "menu.section.browse_community_by_title": "Por titulo",
 
-  // "menu.section.browse_global": "All of DSpace",
-  "menu.section.browse_global": "Todo DSpace",
+  // "menu.section.browse_global": "All of Posgrado UPEA",
+  "menu.section.browse_global": "Todo Posgrado UPEA",
 
   // "menu.section.browse_global_by_author": "By Author",
   "menu.section.browse_global_by_author": "Por autor/a",
@@ -5653,8 +5653,8 @@
   // "notification.suggestion.please": "Please",
   "notification.suggestion.please": "Por favor",
 
-  // "nav.browse.header": "All of DSpace",
-  "nav.browse.header": "Todo DSpace",
+  // "nav.browse.header": "All of Posgrado UPEA",
+  "nav.browse.header": "Todo Posgrado UPEA",
 
   // "nav.community-browse.header": "By Community",
   "nav.community-browse.header": "Por comunidad",
@@ -6795,10 +6795,10 @@
   "repository.image.logo": "Logotipo del repositorio",
 
   // "repository.title": "DSpace Repository",
-  "repository.title": "Repositorio DSpace",
+  "repository.title": "Repositorio Posgrado UPEA",
 
   // "repository.title.prefix": "DSpace Repository :: ",
-  "repository.title.prefix": "Repositorio DSpace :: ",
+  "repository.title.prefix": "Repositorio Posgrado UPEA :: ",
 
   // "resource-policies.add.button": "Add",
   "resource-policies.add.button": "Agregar",
@@ -7464,8 +7464,8 @@
   // "search.form.search_dspace": "All repository",
   "search.form.search_dspace": "Todo el repositorio",
 
-  // "search.form.scope.all": "All of DSpace",
-  "search.form.scope.all": "Todo DSpace",
+  // "search.form.scope.all": "All of Posgrado UPEA",
+  "search.form.scope.all": "Todo Posgrado UPEA",
 
   // "search.results.head": "Search Results",
   "search.results.head": "Resultados de la búsqueda",

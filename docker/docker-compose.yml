@@ -12,9 +12,9 @@
 networks:
   # Default to using an existing external network named 'dspacenet' (created in docker-compose-rest.yml)
   # Its full name will be prepended with the project name (e.g. "-p d7" means it will be named "d7_dspacenet")
-  dspacenet:
-    name: ${COMPOSE_PROJECT_NAME}_dspacenet
-    external: true
+ dspacenet:
+  name: dspace_dspacenet
+  external: true
 services:
   dspace-angular:
     container_name: dspace-angular

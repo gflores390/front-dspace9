@@ -300,7 +300,7 @@ export class ThemeService {
             'tagName': 'link',
             'attributes': {
               'rel': 'icon',
-              'href': 'assets/images/favicon.ico',
+              'href': 'assets/images/favicon1.ico',
               'sizes': 'any',
             },
           }),

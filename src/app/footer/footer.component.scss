@@ -14,6 +14,90 @@
       height: var(--ds-footer-logo-height);
     }
 
+    .institution-footer {
+      background-color: #000216; /* Azul solicitado */
+      border-bottom: 1px rgba(255, 255, 255, 0.05) solid;
+      color: #ffffff;
+
+      .institution-logo {
+        height: 35px;
+        width: auto;
+        transition: transform 0.2s ease;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      .tiny-label {
+        font-size: 0.6rem;
+        text-transform: lowercase;
+        opacity: 0.8;
+        font-weight: 300;
+        letter-spacing: 0.5px;
+      }
+
+      .compact-text {
+        font-size: 0.75rem;
+        font-weight: 300;
+        opacity: 0.9;
+      }
+
+      .social-icon-compact {
+        width: 28px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white;
+        font-size: 0.85rem;
+        text-decoration: none;
+        transition: all 0.2s ease;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.25);
+          transform: translateY(-2px);
+        }
+      }
+
+      .web-link-compact {
+        color: white;
+        text-decoration: none;
+        transition: opacity 0.2s;
+        &:hover {
+          opacity: 0.7;
+          text-decoration: underline;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .institution-logo {
+          height: 30px;
+        }
+        .compact-text {
+          font-size: 0.65rem;
+          padding: 5px 0;
+        }
+      }
+    }
+
+    .small-copyright {
+      background-color: #000216; /* Mismo tono oscuro */
+      font-size: 0.5rem;
+      padding: 0.4rem 0 !important;
+      opacity: 0.6;
+      border-top: 1px rgba(255, 255, 255, 0.05) solid;
+
+
+      p, a, .btn {
+        font-size: inherit !important;
+      }
+
+      ul li a, ul li .btn-link {
+        font-size: inherit !important;
+      }
+    }
 
     .top-footer {
       background-color: var(--ds-top-footer-bg);

@@ -22,7 +22,7 @@ describe(`LocaleInterceptor`, () => {
   let localeService: any;
 
   const languageList = ['en;q=1', 'it;q=0.9', 'de;q=0.8', 'fr;q=0.7'];
-  const rootHref = 'https://sandbox.dspace.org/server/api';
+  const rootHref = 'http://localhost:8080/server/api';
 
   const mockLocaleService = jasmine.createSpyObj('LocaleService', [
     'getCurrentLanguageCode',
